@@ -1,0 +1,9 @@
+[Unit]
+Description=Automatically combine interleaved PDFs for double-sided documents
+
+[Service]
+ExecStart=/path/to/scanmultipage.sh /path/to/watchdir /path/to/destdir
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
