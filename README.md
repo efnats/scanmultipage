@@ -43,6 +43,7 @@ To run `scanmultipage.sh`, provide the paths for the watch folder and output fol
 Example:
 ```bash
 ./scanmultipage.sh /path/to/watch_folder /path/to/output_folder
+```
 
 ## Setup
 
